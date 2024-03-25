@@ -18,10 +18,13 @@ body {
 
 /* Header Section Styles */
 .header {
-    /* Add styles for the header section */
-    /* Set background image and adjust its size and position */
-    /* Style the logo image */
-    /* Style the navigation buttons */
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./Assets/header-image.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
 }
 
 .header-content {
